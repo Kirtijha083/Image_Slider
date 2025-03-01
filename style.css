@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.arrow{
+    height: 150px;
+    cursor: pointer;
+}
+.left{
+    transform: rotate(180deg);
+}
