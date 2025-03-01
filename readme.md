@@ -7,17 +7,23 @@ This project is a simple Image Slider built using HTML, CSS, and JavaScript. It 
 # 🚀 Features
 
 -**Smooth image sliding effect**
+
 -**Navigation using left and right arrows**
+
 -**Uses event listeners for interaction**
+
 -**Implements CSS transitions for smooth animations**
+
 -**Utilizes CSS transform and translate for movement**
+
 -**Fully responsive design**
+
 
 # Technologies Used
 
--**HTML5:* 
--**CSS3:*
--**JavaScript:* 
+1. HTML5
+2. CSS3
+3. JavaScript 
 
 # 🖥️ Setup & Usage
 
