@@ -4,6 +4,8 @@
 
 This project is a simple Image Slider built using HTML, CSS, and JavaScript. It allows users to navigate through images using arrow buttons. The slider functionality is implemented using JavaScript event listeners, conditional statements, CSS transitions, transform, and translate properties.
 
+Additionally, this project includes dot-button navigation for better control and utilizes DOM manipulation in JavaScript for enhanced functionality.
+
 # 🚀 Features
 
 -**Smooth image sliding effect**
@@ -16,14 +18,21 @@ This project is a simple Image Slider built using HTML, CSS, and JavaScript. It 
 
 -**Utilizes CSS transform and translate for movement**
 
--**Fully responsive design**
+-**Added dot-button navigation for better control**
 
+-**Used DOM manipulation in JavaScript for enhanced functionality**
 
-# Technologies Used
+# 🔮 Future Implementation
 
-1. HTML5
-2. CSS3
-3. JavaScript 
+**Make the slider fully responsive for all screen sizes*
+
+**Add an autoplay feature for continuous sliding*
+
+# 🛠️ Technologies Used
+
+1. HTML: Structure of the slider
+2. CSS: Styling, transitions, and animations
+3. JavaScript: Functionality, event handling, and conditions
 
 # 🖥️ Setup & Usage
 
