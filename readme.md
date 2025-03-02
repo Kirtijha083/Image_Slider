@@ -42,4 +42,4 @@ Additionally, this project includes dot-button navigation for better control and
 
 # Credits
 
-This project was designed and developed by **Kumari Kirti Jha**, reflecting my dedication to delivering high-quality web development solutions.
+This project was designed and developed by *Kumari Kirti Jha*, reflecting my dedication to delivering high-quality web development solutions.
