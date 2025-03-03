@@ -67,7 +67,7 @@ body {
     gap: 15px;
 }
 
-   /* Responsive Design for Tablets (1024px and below) */
+/* Responsive Design for Tablets (1024px and below) */
    @media (max-width: 1024px) {
     .arrow {
         height: 100px;
@@ -84,3 +84,35 @@ body {
         height: 400px;
     }
 }
+
+/* Responsive Design for Small Tablets and Large Phones (768px and below) */
+@media (max-width: 768px) {
+    .frame {
+        width: 500px;
+        height: 300px;
+    }
+
+    .image {
+        width: 500px;
+        height: 300px;
+    }
+    .arrow {
+        height: 80px;
+    }
+    .top{
+        gap: 3px;
+    }
+}
+
+/* Extra Small Screens */
+/* @media (max-width: 480px) {
+    .frame {
+        width: 350px;
+        height: 250px;
+    }
+
+    .image {
+        width: 350px;
+        height: 250px;
+    }
+} */
