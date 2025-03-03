@@ -66,3 +66,21 @@ body {
     display: flex;
     gap: 15px;
 }
+
+   /* Responsive Design for Tablets (1024px and below) */
+   @media (max-width: 1024px) {
+    .arrow {
+        height: 100px;
+    }
+    .top{
+        gap: 5px;
+    }
+    .frame{
+        width: 650px;
+        height: 400px;
+    }
+    .image{
+        width: 650px;
+        height: 400px;
+    }
+}
