@@ -104,3 +104,4 @@ left.addEventListener("click", () => {
 });
 
 
+// adding auto play feature

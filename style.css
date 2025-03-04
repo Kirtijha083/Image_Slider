@@ -104,8 +104,8 @@ body {
     }
 }
 
-/* Extra Small Screens */
-/* @media (max-width: 480px) {
+/* Responsive Design for Small Phones (480px and below) */
+@media (max-width: 480px) {
     .frame {
         width: 350px;
         height: 250px;
@@ -115,4 +115,10 @@ body {
         width: 350px;
         height: 250px;
     }
-} */
+    .arrow {
+        height: 50px;
+    }
+    .top{
+        gap:0.5px;
+    }
+}
