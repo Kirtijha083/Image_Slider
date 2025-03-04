@@ -38,7 +38,9 @@ const resetBg = () => {
 btns.forEach((btn, i) => {
   btn.addEventListener("click", () => {
     resetBg();
-    slider.style.transform = `translateX(-${i*800}px)`;
+    const imgWidth = getImageWidth(); // Get width dynamically
+    slider.style.transform = `translateX(-${i * imgWidth}px)`;
+    // slider.style.transform = `translateX(-${i*800}px)`;
     slideNumber = i+1; //conecting both dot-btn and arrow
     btn.style.backgroundColor = "white";
   });
