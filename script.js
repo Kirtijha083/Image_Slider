@@ -31,6 +31,9 @@ btns[0].style.backgroundColor = "white";
 const resetBg = () => {
   btns.forEach((btn) =>{
     btn.style.backgroundColor = "transparent";
+    // btn v shi se kaam kre auto ke saath
+    btn.addEventListener("mouseover", stopSlideShow);
+    btn.addEventListener("mouseout", startSlideShow);
   })
 }
 
@@ -107,3 +110,32 @@ left.addEventListener("click", () => {
 
 
 // adding auto play feature
+let slideInterval;
+
+const startSlideShow = () =>{ //auto slide-show
+  slideInterval = setInterval(() => {
+    slideNumber < length ? nextSlide(): getFirstSlide();
+    changeColor(); //for changin dot-color
+  }, 1000) //1000 = 1 second
+}
+
+
+// stop-slide show
+const stopSlideShow = () => {
+  clearInterval(slideInterval);
+}
+
+startSlideShow();
+
+// stop function work when mouse go to the img
+slider.addEventListener("mouseover", stopSlideShow);
+
+// start function work when mouse go out of the img
+slider.addEventListener("mouseout", startSlideShow);
+
+// ab right oe left btn v shi se kaam kre
+right.addEventListener("mouseover", stopSlideShow);
+right.addEventListener("mouseout", startSlideShow);
+
+left.addEventListener("mouseover", stopSlideShow);
+left.addEventListener("mouseout", startSlideShow);
