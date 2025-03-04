@@ -22,11 +22,11 @@ Additionally, this project includes dot-button navigation for better control and
 
 -**Used DOM manipulation in JavaScript for enhanced functionality**
 
-# 🔮 Future Implementation
+- **Make the slider fully responsive for all screen sizes**
 
-**Make the slider fully responsive for all screen sizes*
+- **Add an autoplay feature for continuous sliding**
 
-**Add an autoplay feature for continuous sliding*
+- **Autoplay pauses on mouseover and resumes on mouseout for better user experience**
 
 # 🛠️ Technologies Used
 
